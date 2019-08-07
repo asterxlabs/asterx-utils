@@ -24,7 +24,9 @@ VERSION = None
 REQUIRED = []
 
 # What packages are optional?
-EXTRAS = {}
+EXTRAS = {
+    'auth': ["PyJWT==1.7.1", "cryptography==2.6.1"]
+}
 
 # The rest you shouldn't have to touch too much :)
 # ------------------------------------------------
