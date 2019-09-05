@@ -25,7 +25,7 @@ REQUIRED = []
 
 # What packages are optional?
 EXTRAS = {
-    'auth': ["PyJWT==1.7.1", "cryptography==2.6.1"]
+    'auth': ["PyJWT==1.7.1", "cryptography==2.6.1", "requests==2.21.0"]
 }
 
 # The rest you shouldn't have to touch too much :)
